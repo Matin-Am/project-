@@ -1,7 +1,11 @@
 
 
-def reverse_string():
-    name = "matin"
-    print(name[::-1])
 
-reverse_string()
+def fac(n):
+    if n < 0 :
+        raise Exception("minus numbers not allowed ! ")
+    if n == 0 or n == 1:
+        return 1 
+    return n * fac(n-1)
+
+print(fac(3))
