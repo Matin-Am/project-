@@ -1,7 +1,5 @@
 
 
 
-def revers(name):
-    return name[::-1]
-
- 
+def mult_numebers(x,y):
+    return x * y 
